@@ -1,0 +1,93 @@
+body {
+    background-color: #f0e5e5; /* צבע פסטלי לרקע */
+    font-family: Aharoni;
+    text-align: center; /* ממקם את הטקסט למרכז */
+}
+
+h1 {
+    color: #eb9d29; 
+    margin-top: 50px;
+}
+
+.cta-button {
+    background-color: #eb9d29;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* הנפשה */
+    text-align: center;
+    width: 200px;
+    margin: 20px;
+}
+
+.cta-button:hover {
+    background-color: #674005; /* שינוי צבע בעת ריחוף */
+}
+
+.titleHello {
+    color: antiquewhite;
+    font-size: 50px;
+}
+
+.tips-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tip-card {
+    text-align: center;
+
+    background-color: white; /* צבע רקע למסגרת */
+    border: 2px solid #eb9d29; /* מסגרת צבעונית */
+    border-radius: 10px; /* פינות מעוגלות */
+    padding: 20px; /* ריפוד פנימי */
+    margin: 10px; /* רווח בין המסגרות */
+    width: 80%; /* הרחבת הרוחב */
+    max-width: 600px; /* הגבלת רוחב מקסימלי */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* צל */
+    transition: transform 0.2s; /* הנפשה */
+}
+
+.tip-card:hover {
+    transform: scale(1.05); /* הנפשה בעת ריחוף */
+}
+
+.tiptitle {
+    color: #eb9d29; /* צבע הכותרת */
+}
+
+.tip-content {
+    color: #333; /* צבע טקסט קריא יותר */
+    text-align: center; /* טקסט משמאל */
+}
+b,h3{
+    color: #6c6761;
+}
+
+.terms-container {
+    border: 2px solid #cc9f22; /* צבע המסגרת */
+    border-radius: 8px; /* פינות מעוגלות */
+    padding: 20px; /* ריפוד פנימי */
+    margin: 20px 0; /* מרווח מעל ומתחת */
+    /* background-color: #f9f9f9; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* צל */
+}
+
+.terms-title {
+    font-size: 24px; /* גודל גופן לכותרת */
+    /* color: #333;  */
+    margin-bottom: 10px; /* מרווח מתחת לכותרת */
+}
+
+.terms-content {
+    font-size: 16px; /* גודל גופן לתוכן */
+    color: #666; /* צבע טקסט לתוכן */
+}
+
+

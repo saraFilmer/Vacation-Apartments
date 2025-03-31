@@ -1,0 +1,16 @@
+.btn-container{
+    display: flex; /* שינוי ל-flex כדי לאפשר סידור של הכפתורים בשורה */
+    flex-wrap: wrap; /* מאפשר לכפתורים לעבור לשורה הבאה אם אין מקום */
+    justify-content: right; 
+    gap: 15px; /* רווח בין הכפתורים */
+  
+}
+
+/* אפשרויות סינון כפתור */
+.filter1{
+    width: 135px;
+    height: 55px;
+position: relative;
+margin: 10px;
+font-size: larger;
+}

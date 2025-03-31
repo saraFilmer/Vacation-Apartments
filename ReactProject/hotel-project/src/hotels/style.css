@@ -1,0 +1,27 @@
+.nav {
+    width: 100vw;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    background-color: black;
+    justify-content: center;
+}
+
+.link {
+    color: white;
+    font-size: 1rem;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.active {
+    color: chocolate;
+}
+
+.title{
+    color: white;
+}
+
+
+

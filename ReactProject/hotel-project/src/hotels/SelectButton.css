@@ -1,0 +1,43 @@
+.select-button-container {
+  position: relative;
+  display: inline-block; /* מאפשר כפתורים להיות זה לצד זה */
+  position: relative; /* מאפשר למקם את ה-dropdown ביחס לכפתור */
+
+}
+
+.select-button {
+  padding: 5px 10px; 
+  font-size: 0.8rem; /* גודל טקסט קטן יותר */
+  cursor: pointer;
+  height: 45px;
+  width: 85px;
+  text-align: center;
+
+}
+
+  .select-menu {
+    position: absolute; /* מאפשר למקם את התפריט בצורה שאינה משפיעה על שאר האלמנטים */
+    top: 100%; /* ממקם את התפריט מתחת לכפתור */
+    left: 0; /* ממקם את התפריט באותו הקו האופקי כמו הכפתור */
+    z-index: 1000; /* מבטיח שהתפריט יהיה מעל אלמנטים אחרים */
+    background-color: white; /* צבע הרקע של התפריט */
+    border: 1px solid #ccc; /* מסגרת סביב התפריט */
+    border-radius: 4px; /* פינות מעוגלות */
+}
+
+
+.select-dropdown {
+  background-color: #847f76;
+  color: white;
+  border-radius: 5px; /* פחות מעוגל */
+  padding: 5px; /* גובה קטן יותר לשדות */
+  font-size: 0.95rem; /* גודל טקסט קטן יותר */
+  cursor: pointer;
+}
+
+button{
+  height: 45px;
+  width: 85px;
+  text-align: center;
+
+}

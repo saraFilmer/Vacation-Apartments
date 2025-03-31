@@ -1,0 +1,74 @@
+.input-container {
+  display: flex;
+  flex-direction: column; /* סידור בעמודה */
+  gap: 30px; /* רווח בין ה-inputים */
+  margin-top: 10px; /* רווח מעל הקבוצה */
+}
+
+input {
+  width: 100px; /* רוחב קטן יותר */
+  padding: 5px; /* ריפוד פנימי */
+  font-size: 0.8rem; /* גודל טקסט קטן יותר */
+  border: 1px solid #ccc; /* גבול קל */
+  border-radius: 2px; /* פינות מעוגלות קלות */
+}
+
+button {
+  padding: 5px 10px; /* גובה וכפתור קטן יותר */
+  border: none;
+  border-radius: 5px; /* כפתורים פחות מעוגלים */
+  font-size: 0.8rem; /* גודל טקסט קטן יותר */
+  color: #fff; /* צבע טקסט לבן */
+  background-color: #eb9d29; /* צבע הכפתור */
+  cursor: pointer;
+  height: 45px;
+  width: 85px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #d89d24; /* צבע כהה יותר בהעברת עכבר */
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column; /* סידור בעמודה */
+  gap: 10px; /* רווח בין ה-inputים */
+  margin-top: 10px; /* רווח מעל הקבוצה */
+  text-align: center; /* מרכז את התוכן */
+  border: 2px solid #eb9d29; /* מסגרת סביב הקונטיינר */
+  padding: 10px; /* ריפוד פנימי */
+  border-radius: 5px; /* פינות מעוגלות */
+}
+
+
+.input-container input {
+  width: 100px; /* רוחב קטן יותר */
+  padding: 5px; /* ריפוד פנימי */
+  font-size: 0.85rem; /* גודל טקסט קטן יותר */
+  border: 1px solid #ccc; /* גבול קל */
+  border-radius: 3px; /* פינות מעוגלות קלות */
+}
+
+.input-container button {
+  padding: 5px 10px; /* גובה וכפתור קטן יותר */
+  border: none;
+  border-radius: 5px; /* כפתורים פחות מעוגלים */
+  font-size: 0.8rem; /* גודל טקסט קטן יותר */
+  color: #fff; /* צבע טקסט לבן */
+  background-color: #eb9d29; /* צבע הכפתור */
+  cursor: pointer;
+  
+}
+
+.input-container button:hover {
+  background-color: #d89d24; /* צבע כהה יותר בהעברת עכבר */
+}
+
+.buttons-container {
+  display: flex; /* שינוי ל-flex כדי לאפשר סידור של הכפתורים בשורה */
+  flex-wrap: wrap; /* מאפשר לכפתורים לעבור לשורה הבאה אם אין מקום */
+  justify-content: center; /* מרכז את הכפתורים */
+  gap: 15px; /* רווח בין הכפתורים */
+}

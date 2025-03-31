@@ -1,0 +1,59 @@
+.nav {
+    width: 100%; /* רוחב מתאים לרוחב המסך */
+    height: 7rem; /* גובה מוגדל (שנה לפי הצורך) */
+    display: flex;
+    flex-direction: row;
+    padding: 0 1rem; /* ריווח פנימי מימין ומשמאל */
+    background-color: #1a1a1a; /* צבע רקע שחור כהה */
+    justify-content: space-between; /* רווח אחיד בין הלוגו ללינקים */
+    align-items: center;
+    border-bottom: 2px solid #eb9d29; /* קו תחתון אדום */
+    box-sizing: border-box; /* כולל padding ו-border בגובה וברוחב */
+    overflow: hidden; /* מסיר גלילה אופקית אם יש */
+}
+
+.logo {
+    margin-right: auto; /* יישור הלוגו לשמאל */
+}
+
+.site-logo {
+    height: 100%; /* תואם את הגובה המוגדר ל-Nav */
+    object-fit: contain; /* שומר על פרופורציות */
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: larger;
+}
+
+.user-icon {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.title {
+    font-size: 1rem; /* ניתן לשנות לפי הצורך */
+}
+
+.link {
+    color: #838b88;
+    font-size: 25px;
+    margin: 0 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color:  #644009; 
+}
+
+.active {
+    color:  #eb9d29; /* אדום */
+}

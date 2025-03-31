@@ -1,0 +1,78 @@
+.product{
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #4a4a4a; /* צבע רקע כהה יותר בכרטיסים */
+  color: #f1f1f1; /* צבע טקסט בהיר וקריא יותר */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  height: 100%; /* התאמה לגובה התיבה */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  opacity: 1; /* שקיפות מלאה עבור רכבים זמינים */
+  cursor: pointer; /* הצבע משתנה ליד כשעוברים על רכבים זמינים */
+  box-sizing: border-box; /* כולל את הרווחים והגבולות בגובה הכולל */
+}
+
+.product_false {
+  opacity: 0.3; /* חצי שקיפות לרכבים שאינם זמינים */
+}
+
+.product_image-wrapper {
+  width: 100%; /* רוחב מלא */
+  height: 180px; /* גובה קבוע לתמונות */
+  overflow: hidden; /* חיתוך חלקים מהתמונה שיוצאים מהתבנית */
+  border-radius: 8px; /* פינות מעוגלות */
+  margin-bottom: 8px; /* רווח קטן בין התמונה למלל */
+}
+
+.product_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* חיתוך תמונות גדולות כך שיתאימו לתבנית */
+  border-radius: 8px; /* שמירה על פינות מעוגלות */
+}
+
+.product_details {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* מיקום המלל קרוב לתמונה */
+  align-items: center;
+  margin-top: 0; /* ביטול כל רווח נוסף בין התמונה לתוכן */
+}
+
+.product_name {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.product_description {
+  font-size: 1em;
+  color: #f1f1f1; /* צבע טקסט בהיר */
+  margin: 8px 0;
+}
+
+.product_price {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #f1f1f1; /* צבע טקסט בהיר */
+}
+
+.product_true:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product_label{
+ font-size: 20px;
+ /* text-decoration: underline; //פס מתחת למילה */
+
+}
+
+.product_name{
+  color:  #eb9d29;
+}

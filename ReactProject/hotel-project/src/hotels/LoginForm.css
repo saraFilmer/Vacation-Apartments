@@ -1,0 +1,51 @@
+.login-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f0e5e5; /* צבע רקע פסטלי */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #d1d1d1;
+    border-radius: 4px;
+    background-color: #ffffff; /* צבע רקע לבן לשדות */
+    color: #333; /* צבע טקסט כהה */
+    box-sizing: border-box; /* Ensure padding is included within the width */
+}
+
+.form-input.error {
+    border-color: #e74c3c; /* צבע אדום לשדה שגיאה */
+}
+
+.form-input.success {
+    border-color: #2ecc71; /* צבע ירוק לשדה תקין */
+}
+
+.error-text {
+    color: #e74c3c; /* צבע אדום לטקסט שגיאה */
+    font-size: 0.875rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #fff;
+    background-color:  #eb9d29; /* צבע פסטלי לכפתור */
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #eb9d29; /* צבע כהה יותר לכפתור בהעברת עכבר */
+}

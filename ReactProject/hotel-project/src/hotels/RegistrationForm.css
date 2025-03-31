@@ -1,0 +1,62 @@
+/* כללית */
+body {
+    font-family: Aharoni;
+    background-color: #222; /* רקע כהה לדף */
+    color: #fff; /* צבע טקסט לבן */
+    margin: 0;
+    padding: 0;
+}
+
+/* עיצוב עבור טופס ההרשמה */
+.registration-form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid #444; /* צבע גבול כהה */
+    border-radius: 8px;
+    background-color: #333; /* צבע רקע כהה לשדות */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* צל עדין */
+}
+
+/* עיצוב עבור שדות קלט */
+.registration-form input {
+    width: calc(100% - 20px);
+    padding: 12px;
+    border: 2px solid #444; /* צבע גבול כהה */
+    border-radius: 4px;
+    background-color: #222; /* צבע רקע כהה לשדות */
+    color: #fff; /* צבע טקסט לבן */
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.registration-form input:focus {
+    border-color: #eb9d29; /* צבע גבול אדום בעת פוקוס */
+    outline: none;
+    background-color: #1c1c1c; /* צבע רקע כהה בעת פוקוס */
+}
+
+/* עיצוב עבור שגיאות */
+.error-text {
+    color: #eb9d29; /* צבע טקסט אדום לשגיאות */
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* עיצוב עבור כפתור ההגשה */
+.submit-button {
+    width: 100%;
+    padding: 14px;
+    background-color: #eb9d29; /* צבע רקע אדום לכפתור */
+    color: #fff; /* צבע טקסט לבן בכפתור */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* רווח עליון לכפתור */
+}
+
+.submit-button:hover {
+    background-color:  #eb9d29; /* צבע רקע אדום כהה לכפתור בעת ריחוף */
+}
